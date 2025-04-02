@@ -23,7 +23,7 @@ public class RegistrationTest {
         String password = testDataGenerator.generatePassword();
 
         authorizationService.openAutorizationPage();
-        authorizationPage.getLinkRegister().shouldBe(visible.because("Кнопка входа должна отображаться")).click();;
+        authorizationPage.getLinkRegister().shouldBe(visible.because("Кнопка регистрации должна отображаться")).click();;
 
         registrationPage.setName(name);
         registrationPage.setEmail(email);

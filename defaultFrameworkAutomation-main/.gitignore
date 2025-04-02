@@ -1,5 +1,5 @@
 .idea/
-/allure-results
-/build/reports/tests
-/test-output
+/allure-results/
+/build/
+/test-output/
 target

@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Создал класс RegistrationPage с модифиаторами доступа страницы. Создал метод checkEquals для сравнения фактического и ожидаемого URL.&#10;Создал класс RegistrationTest и тестовый метод checkRegistration для проверки успешной регистрации">
-      <change afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/base/TestDataGenerator.java" afterDir="false" />
+    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/base/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/base/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/pages/register/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/pages/register/RegistrationPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/main/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/main/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743595514793</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода.">
+      <option name="closed" value="true" />
+      <created>1743605292582</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1743605292582</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +205,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создал несколько страниц в корне Api - Pages, Tests, Services. Создал классы MainPage - основная страница, ProfilePage - страница профиля, ProfileService - класс с логикой сравнения фактического и ожидаемого сайта. Дописал тест в классе AuthorizationTest." />
     <MESSAGE value="Создал класс RegistrationPage с модифиаторами доступа страницы. Создал метод checkEquals для сравнения фактического и ожидаемого URL.&#10;Создал класс RegistrationTest и тестовый метод checkRegistration для проверки успешной регистрации" />
-    <option name="LAST_COMMIT_MESSAGE" value="Создал класс RegistrationPage с модифиаторами доступа страницы. Создал метод checkEquals для сравнения фактического и ожидаемого URL.&#10;Создал класс RegistrationTest и тестовый метод checkRegistration для проверки успешной регистрации" />
+    <MESSAGE value="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода." />
   </component>
 </project>
