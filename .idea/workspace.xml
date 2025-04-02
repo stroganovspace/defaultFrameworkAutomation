@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Изменил файлы в папке gitignore. Изменил слово в комментарии в тестовом методе checkRegistration" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743605292582</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Изменил файлы в папке gitignore. Изменил слово в комментарии в тестовом методе checkRegistration">
+      <option name="closed" value="true" />
+      <created>1743606962785</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1743606962785</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +211,7 @@
     <MESSAGE value="Создал несколько страниц в корне Api - Pages, Tests, Services. Создал классы MainPage - основная страница, ProfilePage - страница профиля, ProfileService - класс с логикой сравнения фактического и ожидаемого сайта. Дописал тест в классе AuthorizationTest." />
     <MESSAGE value="Создал класс RegistrationPage с модифиаторами доступа страницы. Создал метод checkEquals для сравнения фактического и ожидаемого URL.&#10;Создал класс RegistrationTest и тестовый метод checkRegistration для проверки успешной регистрации" />
     <MESSAGE value="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода." />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода." />
+    <MESSAGE value="Изменил файлы в папке gitignore. Изменил слово в комментарии в тестовом методе checkRegistration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменил файлы в папке gitignore. Изменил слово в комментарии в тестовом методе checkRegistration" />
   </component>
 </project>
