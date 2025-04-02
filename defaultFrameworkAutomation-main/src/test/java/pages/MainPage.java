@@ -12,5 +12,4 @@ public class MainPage {
     public SelenideElement getLinkByProfile() {
         return element(LINK_BY_PROFILE);
     }
-
 }

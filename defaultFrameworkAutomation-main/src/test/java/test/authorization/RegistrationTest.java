@@ -1,5 +1,6 @@
 package test.authorization;
 
+import base.TestDataGenerator;
 import org.testng.annotations.Test;
 import pages.authorization.AuthorizationPage;
 import pages.register.RegistrationPage;
@@ -13,22 +14,22 @@ public class RegistrationTest {
     private final AuthorizationPage authorizationPage = new AuthorizationPage();
     private final MainService mainService = new MainService();
     private final RegistrationPage registrationPage = new RegistrationPage();
-
+    private final TestDataGenerator testDataGenerator = new TestDataGenerator();
 
     @Test
     public void checkRegistration() {
-        String name = "bfbka";
-        String email = "kt@gmail.com";
-        String password = "seoy2199";
+        String name = testDataGenerator.generateName();
+        String email = testDataGenerator.generateEmail();
+        String password = testDataGenerator.generatePassword();
 
         authorizationService.openAutorizationPage();
-        authorizationPage.getLinkRegister().shouldBe(visible).click();;
+        authorizationPage.getLinkRegister().shouldBe(visible.because("Кнопка входа должна отображаться")).click();;
 
         registrationPage.setName(name);
         registrationPage.setEmail(email);
         registrationPage.setPassword(password);
-        registrationPage.getRegisterButton().shouldBe(visible).click();
+        registrationPage.getRegisterButton().shouldBe(visible.because("Кнопка входа должна отображаться")).click();
 
-        mainService.checkEquals();
+        mainService.checkUrl();
     }
 }

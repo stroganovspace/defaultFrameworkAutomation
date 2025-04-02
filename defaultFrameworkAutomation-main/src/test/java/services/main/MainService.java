@@ -7,9 +7,9 @@ import static com.codeborne.selenide.WebDriverConditions.urlContaining;
 
 public class MainService extends BaseService {
 
-    public void checkEquals() {
-        String mainUrl = BASE_URL;
+    public void checkUrl() {
+        String Url = BASE_URL;
 
-        webdriver().shouldHave(urlContaining(mainUrl.replaceFirst("https?://", "").replaceAll("/$", "")));
+        webdriver().shouldHave(urlContaining(Url.replaceAll("/$", "")));
     }
 }
