@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Создал 2 автотеста на проверку авторизации, один с неверной почтой, второй с неверным паролем. Создал автотест на прохождение регистрации с данными пользователя, который уже существует.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/pages/main/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/pages/main/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/registration/RegistrationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/AuthorizationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,29 +36,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.EqualsURL.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.Authorization.checkAuthorization.executor": "Run",
-    "TestNG.Authorization.executor": "Run",
-    "TestNG.AuthorizationTest.checkAuthorization.executor": "Run",
-    "TestNG.AuthorizationTest.checkIncorrecEmail.executor": "Run",
-    "TestNG.AuthorizationTest.checkIncorrectPassword.executor": "Run",
-    "TestNG.AuthorizationTest.executor": "Run",
-    "TestNG.EqualsURL.equalsUrl.executor": "Run",
-    "TestNG.EqualsURL.executor": "Run",
-    "TestNG.EqualsURL.main.executor": "Run",
-    "TestNG.RegistrationTest.checkRegistration.executor": "Run",
-    "TestNG.RegistrationTest.checkUserExists.executor": "Run",
-    "TestNG.ReqrestTest.successRegistrationTest.executor": "Run",
-    "kotlin-language-version-configured": "true",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.EqualsURL.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.Authorization.checkAuthorization.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Authorization.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AuthorizationTest.checkAuthorization.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AuthorizationTest.checkIncorrecEmail.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AuthorizationTest.checkIncorrectPassword.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AuthorizationTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EqualsURL.equalsUrl.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EqualsURL.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.EqualsURL.main.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationTest.checkRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationTest.checkUserExists.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.ReqrestTest.successRegistrationTest.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;add-three-tests&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Denis/IdeaProjects/defaultFrameworkAutomation&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="TestNG.AuthorizationTest.checkAuthorization">
     <configuration name="AuthorizationTest.checkAuthorization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
