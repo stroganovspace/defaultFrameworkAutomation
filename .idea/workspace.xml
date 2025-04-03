@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Изменил файлы в папке gitignore. Изменил слово в комментарии в тестовом методе checkRegistration" />
+    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Изменил because">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/main/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/main/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/registration/RegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/AuthorizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/RegistrationTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,44 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.EqualsURL.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;TestNG.Authorization.checkAuthorization.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.Authorization.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AuthorizationTest.checkAuthorization.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.AuthorizationTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EqualsURL.equalsUrl.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EqualsURL.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.EqualsURL.main.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.RegistrationTest.checkRegistration.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.ReqrestTest.successRegistrationTest.executor&quot;: &quot;Run&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.EqualsURL.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.Authorization.checkAuthorization.executor": "Run",
+    "TestNG.Authorization.executor": "Run",
+    "TestNG.AuthorizationTest.checkAuthorization.executor": "Run",
+    "TestNG.AuthorizationTest.checkIncorrecEmail.executor": "Run",
+    "TestNG.AuthorizationTest.checkIncorrectPassword.executor": "Run",
+    "TestNG.AuthorizationTest.executor": "Run",
+    "TestNG.EqualsURL.equalsUrl.executor": "Run",
+    "TestNG.EqualsURL.executor": "Run",
+    "TestNG.EqualsURL.main.executor": "Run",
+    "TestNG.RegistrationTest.checkRegistration.executor": "Run",
+    "TestNG.RegistrationTest.checkUserExists.executor": "Run",
+    "TestNG.ReqrestTest.successRegistrationTest.executor": "Run",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.RegistrationTest.checkRegistration">
-    <configuration name="AuthorizationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenide-boilerplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.authorization.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.authorization" />
-      <option name="MAIN_CLASS_NAME" value="test.authorization.AuthorizationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}]]></component>
+  <component name="RunManager" selected="TestNG.RegistrationTest.checkUserExists">
     <configuration name="AuthorizationTest.checkAuthorization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
@@ -89,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsURL" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthorizationTest.checkIncorrecEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
         <pattern>
@@ -98,15 +90,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.authorization" />
-      <option name="MAIN_CLASS_NAME" value="test.authorization.EqualsURL" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="test.authorization.AuthorizationTest" />
+      <option name="METHOD_NAME" value="checkIncorrecEmail" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualsURL.equalsUrl" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthorizationTest.checkIncorrectPassword" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +108,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.authorization" />
-      <option name="MAIN_CLASS_NAME" value="test.authorization.EqualsURL" />
-      <option name="METHOD_NAME" value="equalsUrl" />
+      <option name="MAIN_CLASS_NAME" value="test.authorization.AuthorizationTest" />
+      <option name="METHOD_NAME" value="checkIncorrectPassword" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,13 +135,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RegistrationTest.checkUserExists" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenide-boilerplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.authorization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.authorization" />
+      <option name="MAIN_CLASS_NAME" value="test.authorization.RegistrationTest" />
+      <option name="METHOD_NAME" value="checkUserExists" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RegistrationTest.checkUserExists" />
         <item itemvalue="TestNG.RegistrationTest.checkRegistration" />
+        <item itemvalue="TestNG.AuthorizationTest.checkIncorrecEmail" />
+        <item itemvalue="TestNG.AuthorizationTest.checkIncorrectPassword" />
         <item itemvalue="TestNG.AuthorizationTest.checkAuthorization" />
-        <item itemvalue="TestNG.AuthorizationTest" />
-        <item itemvalue="TestNG.EqualsURL" />
-        <item itemvalue="TestNG.EqualsURL.equalsUrl" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743606962785</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Изменил because">
+      <option name="closed" value="true" />
+      <created>1743608227671</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1743608227671</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +231,7 @@
     <MESSAGE value="Создал класс RegistrationPage с модифиаторами доступа страницы. Создал метод checkEquals для сравнения фактического и ожидаемого URL.&#10;Создал класс RegistrationTest и тестовый метод checkRegistration для проверки успешной регистрации" />
     <MESSAGE value="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода." />
     <MESSAGE value="Изменил файлы в папке gitignore. Изменил слово в комментарии в тестовом методе checkRegistration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменил файлы в папке gitignore. Изменил слово в комментарии в тестовом методе checkRegistration" />
+    <MESSAGE value="Изменил because" />
+    <option name="LAST_COMMIT_MESSAGE" value="Изменил because" />
   </component>
 </project>
