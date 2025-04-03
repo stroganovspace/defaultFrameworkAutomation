@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Изменил because">
+    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Создал 2 автотеста на проверку авторизации, один с неверной почтой, второй с неверным паролем. Создал автотест на прохождение регистрации с данными пользователя, который уже существует.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/main/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/main/MainService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/pages/main/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/pages/main/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/services/registration/RegistrationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/AuthorizationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/defaultFrameworkAutomation-main/src/test/java/test/authorization/RegistrationTest.java" afterDir="false" />
@@ -62,7 +62,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.RegistrationTest.checkUserExists">
+  <component name="RunManager" selected="TestNG.AuthorizationTest.checkAuthorization">
     <configuration name="AuthorizationTest.checkAuthorization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
@@ -155,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AuthorizationTest.checkAuthorization" />
         <item itemvalue="TestNG.RegistrationTest.checkUserExists" />
         <item itemvalue="TestNG.RegistrationTest.checkRegistration" />
         <item itemvalue="TestNG.AuthorizationTest.checkIncorrecEmail" />
         <item itemvalue="TestNG.AuthorizationTest.checkIncorrectPassword" />
-        <item itemvalue="TestNG.AuthorizationTest.checkAuthorization" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +212,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743608227671</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Создал 2 автотеста на проверку авторизации, один с неверной почтой, второй с неверным паролем. Создал автотест на прохождение регистрации с данными пользователя, который уже существует.">
+      <option name="closed" value="true" />
+      <created>1743674637619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1743674637619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +240,7 @@
     <MESSAGE value="Добавил зависимость javafaker в Maven. Создал класс TestDataGenerator ля создания генерируемых данных в полях регистрации Name, Email, Password. Добавил папки  в gitignore. Сделал правки кода." />
     <MESSAGE value="Изменил файлы в папке gitignore. Изменил слово в комментарии в тестовом методе checkRegistration" />
     <MESSAGE value="Изменил because" />
-    <option name="LAST_COMMIT_MESSAGE" value="Изменил because" />
+    <MESSAGE value="Создал 2 автотеста на проверку авторизации, один с неверной почтой, второй с неверным паролем. Создал автотест на прохождение регистрации с данными пользователя, который уже существует." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал 2 автотеста на проверку авторизации, один с неверной почтой, второй с неверным паролем. Создал автотест на прохождение регистрации с данными пользователя, который уже существует." />
   </component>
 </project>

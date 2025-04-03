@@ -16,7 +16,6 @@ public class RegistrationTest {
     private final MainService mainService = new MainService();
     private final RegistrationPage registrationPage = new RegistrationPage();
     private final TestDataGenerator testDataGenerator = new TestDataGenerator();
-    private final RegistrationService registrationService = new RegistrationService();
 
     @Test
     public void checkRegistration() {
@@ -33,22 +32,5 @@ public class RegistrationTest {
         registrationPage.getRegisterButton().shouldBe(visible.because("Кнопка входа должна отображаться")).click();
 
         mainService.checkUrl();
-    }
-
-    @Test
-    public void checkUserExists() {
-        String name = "Алексей";
-        String email = "alex20-03sh@mail.ru";
-        String password = "12345678";
-
-        authorizationService.openAutorizationPage();
-        authorizationPage.getLinkRegister().shouldBe(visible.because("Ссылка на страницу регистрации не отображается")).click();
-
-        registrationPage.setName(name);
-        registrationPage.setEmail(email);
-        registrationPage.setPassword(password);
-        registrationPage.getRegisterButton().shouldBe(visible.because("Данный User уже зарегистрирован")).click();
-
-        registrationService.checkEqualsUrl();
     }
 }
