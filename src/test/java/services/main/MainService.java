@@ -8,8 +8,6 @@ import static com.codeborne.selenide.WebDriverConditions.urlContaining;
 public class MainService extends BaseService {
 
     public void checkUrl() {
-        String url = BaseService.BASE_URL;
-
-        webdriver().shouldHave(urlContaining(url.replaceAll("/$", "")));
+        webdriver().shouldHave(urlContaining(BaseService.BASE_URL.replaceAll("/$", "")));
     }
 }

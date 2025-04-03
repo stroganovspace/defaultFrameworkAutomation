@@ -6,7 +6,6 @@ import pages.authorization.AuthorizationPage;
 import pages.register.RegistrationPage;
 import services.authorization.AuthorizationService;
 import services.main.MainService;
-import services.registration.RegistrationService;
 
 import static com.codeborne.selenide.Condition.visible;
 
@@ -23,7 +22,7 @@ public class RegistrationTest {
         String email = testDataGenerator.generateEmail();
         String password = testDataGenerator.generatePassword();
 
-        authorizationService.openAutorizationPage();
+        authorizationService.openAuthorizationPage();
         authorizationPage.getLinkRegister().shouldBe(visible.because("Ссылка на страницу регистрации не отображается")).click();
 
         registrationPage.setName(name);

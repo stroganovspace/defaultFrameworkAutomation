@@ -19,7 +19,7 @@ public class AuthorizationTest {
     String email = "alex20-03sh@mail.ru";
     String password = "12345678";
 
-    authorizationService.openAutorizationPage();
+    authorizationService.openAuthorizationPage();
     authorizationPage.setEmail(email);
     authorizationPage.setPassword(password);
     authorizationPage.getEnterButton().click();
