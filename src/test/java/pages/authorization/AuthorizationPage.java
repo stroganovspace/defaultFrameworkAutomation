@@ -13,7 +13,7 @@ public class AuthorizationPage {
   private final By ENTER_BUTTON = By.xpath("//button[contains(text(), 'Войти')]");
   private final By LINK_REGISTER = By.xpath("//a[contains(text(), 'Зарегистрироваться')]");
   private final By LINK_FORGOT_PASSWORD = By.xpath("//a[contains(text(), 'Восстановить пароль')]");
-  private final By COMMON_ERROR = By.xpath("//p[contains(text(), 'email or password are incorrect')]");
+  private final By VALIDATE_ERROR = By.xpath("//p[contains(text(), 'email or password are incorrect')]");
 
   public SelenideElement getEmail() {
     return element(EMAIL);
@@ -43,5 +43,5 @@ public class AuthorizationPage {
     return element(LINK_FORGOT_PASSWORD);
   }
 
-  public SelenideElement getCommonError() { return element(COMMON_ERROR); }
+  public SelenideElement getValidateError() { return element(VALIDATE_ERROR); }
 }

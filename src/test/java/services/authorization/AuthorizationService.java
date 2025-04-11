@@ -10,7 +10,7 @@ public class AuthorizationService extends BaseService {
     open(BASE_URL + "/login");
   }
 
-  public void checkUrls() {
+  public void checkUrl() {
     webdriver().shouldHave(url(BaseService.BASE_URL + "/login"));
   }
 }

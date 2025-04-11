@@ -50,10 +50,10 @@ public class RegistrationTest {
         registrationPage.setPassword(password);
         registrationPage.getRegisterButton().shouldBe(visible.because("Кнопка регистрации должна быть доступна")).click();
 
-        registrationPage.getCommonError()
+        registrationPage.getValidateError()
                         .shouldBe(visible.because("Сообщение об ошибке должно отображаться"))
                         .shouldHave(text("User already exists").because("Должна быть конкретная ошибка"));
 
-        registrationService.checkEqualsUrl();
+        registrationService.checkUrl();
     }
 }

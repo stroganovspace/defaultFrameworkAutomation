@@ -25,7 +25,7 @@ public class AuthorizationTest {
     authorizationPage.setPassword(password);
     authorizationPage.getEnterButton().click();
 
-    mainPage.getLinkByProfile().shouldBe(visible.because("")).click();
+    mainPage.getLinkByProfile().shouldBe(visible.because("Ссылка на профиль должна отображаться")).click();
 
     profileService.checkEqualsUrl();
   }
@@ -40,11 +40,11 @@ public class AuthorizationTest {
     authorizationPage.setPassword(password);
     authorizationPage.getEnterButton().shouldBe(visible.because("Кнопка входа должна отображаться")).click();
 
-    authorizationPage.getCommonError()
+    authorizationPage.getValidateError()
             .shouldBe(visible.because("Сообщение об ошибке должно отображаться"))
             .shouldHave(text("email or password are incorrect").because("Ожидалась конкретная ошибка"));
 
-    authorizationService.checkUrls();
+    authorizationService.checkUrl();
   }
 
   @Test
@@ -57,11 +57,11 @@ public class AuthorizationTest {
     authorizationPage.setPassword(password);
     authorizationPage.getEnterButton().shouldBe(visible.because("Кнопка входа должна отображаться")).click();
 
-    authorizationPage.getCommonError()
+    authorizationPage.getValidateError()
             .shouldBe(visible.because("Сообщение об ошибке должно отображаться"))
             .shouldHave(text("email or password are incorrect").because("Ожидалась конкретная ошибка"));
 
-    authorizationService.checkUrls();
+    authorizationService.checkUrl();
   }
 }
 

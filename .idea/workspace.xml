@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="1">
+    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Создал 3 теста. 2 негативных теста на проверку авторизации с неправильным паролем и email и 1 негативный тест на проверку регистрации с данными уже существующего пользователя.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/authorization/AuthorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/authorization/AuthorizationPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/register/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/register/RegistrationPage.java" afterDir="false" />
@@ -74,7 +74,7 @@
       <recent name="C:\Users\Denis\IdeaProjects\defaultFrameworkAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AuthorizationTest.checkIncorrectPassword">
+  <component name="RunManager" selected="TestNG.RegistrationTest.checkRegistrationWithExistingUser">
     <configuration name="AuthorizationTest.checkAuthorization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
@@ -167,9 +167,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AuthorizationTest.checkIncorrectPassword" />
         <item itemvalue="TestNG.RegistrationTest.checkRegistrationWithExistingUser" />
         <item itemvalue="TestNG.RegistrationTest.checkRegistration" />
+        <item itemvalue="TestNG.AuthorizationTest.checkIncorrectPassword" />
         <item itemvalue="TestNG.AuthorizationTest.checkIncorrectEmail" />
         <item itemvalue="TestNG.AuthorizationTest.checkAuthorization" />
       </list>
@@ -272,7 +272,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743697127450</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Создал 3 теста. 2 негативных теста на проверку авторизации с неправильным паролем и email и 1 негативный тест на проверку регистрации с данными уже существующего пользователя.">
+      <option name="closed" value="true" />
+      <created>1744365943510</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744365943510</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -295,6 +303,7 @@
     <MESSAGE value="Создал 2 автотеста на проверку авторизации, один с неверной почтой, второй с неверным паролем. Создал автотест на прохождение регистрации с данными пользователя, который уже существует." />
     <MESSAGE value="Починил все" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Создал 3 теста. 2 негативных теста на проверку авторизации с неправильным паролем и email и 1 негативный тест на проверку регистрации с данными уже существующего пользователя." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал 3 теста. 2 негативных теста на проверку авторизации с неправильным паролем и email и 1 негативный тест на проверку регистрации с данными уже существующего пользователя." />
   </component>
 </project>

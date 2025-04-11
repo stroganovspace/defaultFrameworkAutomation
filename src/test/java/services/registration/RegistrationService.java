@@ -7,7 +7,7 @@ import static com.codeborne.selenide.WebDriverConditions.url;
 
 public class RegistrationService extends BaseService {
 
-    public void checkEqualsUrl() {
+    public void checkUrl() {
         webdriver().shouldHave(url(BaseService.BASE_URL + "/register"));
     }
 }

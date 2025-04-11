@@ -12,7 +12,7 @@ public class RegistrationPage {
     private final By PASSWORD = By.xpath("//input[@name='password']");
     private final By REGISTER = By.xpath("//button[contains(text(), 'Зарегистрироваться')]");
     private final By LINK_ENTER = By.xpath("//a[contains(text(), 'Войти')]");
-    private final By COMMON_ERROR = By.xpath("//p[contains(text(), 'User already exists')]");
+    private final By VALIDATE_ERROR = By.xpath("//p[contains(text(), 'User already exists')]");
 
     public SelenideElement getName () { return element(NAME); }
 
@@ -28,7 +28,7 @@ public class RegistrationPage {
         return element(LINK_ENTER);
     }
 
-    public SelenideElement getCommonError() { return element(COMMON_ERROR); }
+    public SelenideElement getValidateError() { return element(VALIDATE_ERROR); }
 
     public void setName (String name) {
         getName().setValue(name);
