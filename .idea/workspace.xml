@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Починил все">
+    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/authorization/AuthorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/authorization/AuthorizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/register/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/register/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/authorization/AuthorizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/authorization/AuthorizationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/registration/RegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/authorization/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/authorization/AuthorizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/authorization/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/authorization/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +50,14 @@
     &quot;TestNG.Authorization.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AuthorizationTest.checkAuthorization.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AuthorizationTest.checkIncorrecEmail.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AuthorizationTest.checkIncorrectEmail.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AuthorizationTest.checkIncorrectPassword.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AuthorizationTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.EqualsURL.equalsUrl.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.EqualsURL.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.EqualsURL.main.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.RegistrationTest.checkRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationTest.checkRegistrationWithExistingUser.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.RegistrationTest.checkUserExists.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ReqrestTest.successRegistrationTest.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;add-three-tests&quot;,
@@ -66,7 +74,7 @@
       <recent name="C:\Users\Denis\IdeaProjects\defaultFrameworkAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AuthorizationTest.checkAuthorization">
+  <component name="RunManager" selected="TestNG.AuthorizationTest.checkIncorrectPassword">
     <configuration name="AuthorizationTest.checkAuthorization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
@@ -85,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthorizationTest.checkIncorrecEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthorizationTest.checkIncorrectEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
         <pattern>
@@ -95,7 +103,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.authorization" />
       <option name="MAIN_CLASS_NAME" value="test.authorization.AuthorizationTest" />
-      <option name="METHOD_NAME" value="checkIncorrecEmail" />
+      <option name="METHOD_NAME" value="checkIncorrectEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -139,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.checkUserExists" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest.checkRegistrationWithExistingUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
         <pattern>
@@ -149,7 +157,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.authorization" />
       <option name="MAIN_CLASS_NAME" value="test.authorization.RegistrationTest" />
-      <option name="METHOD_NAME" value="checkUserExists" />
+      <option name="METHOD_NAME" value="checkRegistrationWithExistingUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AuthorizationTest.checkAuthorization" />
-        <item itemvalue="TestNG.RegistrationTest.checkUserExists" />
-        <item itemvalue="TestNG.RegistrationTest.checkRegistration" />
-        <item itemvalue="TestNG.AuthorizationTest.checkIncorrecEmail" />
         <item itemvalue="TestNG.AuthorizationTest.checkIncorrectPassword" />
+        <item itemvalue="TestNG.RegistrationTest.checkRegistrationWithExistingUser" />
+        <item itemvalue="TestNG.RegistrationTest.checkRegistration" />
+        <item itemvalue="TestNG.AuthorizationTest.checkIncorrectEmail" />
+        <item itemvalue="TestNG.AuthorizationTest.checkAuthorization" />
       </list>
     </recent_temporary>
   </component>
@@ -248,7 +256,23 @@
       <option name="project" value="LOCAL" />
       <updated>1743696474511</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="1">
+      <option name="closed" value="true" />
+      <created>1743696959894</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743696959894</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <option name="closed" value="true" />
+      <created>1743697127450</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743697127450</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -270,6 +294,7 @@
     <MESSAGE value="Изменил because" />
     <MESSAGE value="Создал 2 автотеста на проверку авторизации, один с неверной почтой, второй с неверным паролем. Создал автотест на прохождение регистрации с данными пользователя, который уже существует." />
     <MESSAGE value="Починил все" />
-    <option name="LAST_COMMIT_MESSAGE" value="Починил все" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
 </project>
