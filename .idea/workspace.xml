@@ -4,130 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Починил все">
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742921579465.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742921579465.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742921700896.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742921700896.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922136065.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922136065.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922195119.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922195119.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922297656.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922297656.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922358800.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922358800.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922398749.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742922398749.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742924388397.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742924388397.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742924603668.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742924603668.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742929050072.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742929050072.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742929080938.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742929080938.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742929153837.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742929153837.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742929167321.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1742929167321.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743010910085.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743010910085.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743059161043.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743059161043.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743060057368.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743060057368.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743060100347.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743060100347.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743061298752.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743062357578.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743062357578.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743062441108.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743062441108.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743062881313.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743062881313.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743063080230.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743063080230.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743064061517.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743064061517.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743064269773.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743064269773.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743064593348.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743064593348.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743066026843.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743066026843.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743066077761.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743066077761.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743066207906.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743066207906.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068127941.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068127941.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068415084.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068415084.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068619353.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068619353.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068700916.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068750183.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743068750183.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743069355420.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743069355420.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743070405894.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743070405894.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743070937224.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743070937224.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743077703550.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743077703550.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743077787117.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743077787117.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743084286808.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743084286808.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085388282.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085388282.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085583685.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085583685.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085830329.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085830329.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085887534.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085887534.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085975107.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743085975107.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743086250456.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743086250456.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743095729471.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743095729471.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743512533867.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743512533867.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514321935.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514321935.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514394170.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514394170.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514517833.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514517833.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514673366.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514673366.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514735397.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743514735397.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515043105.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515043105.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515061160.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515061160.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515082445.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515082445.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515418879.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515418879.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515471125.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515471125.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515935258.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743515935258.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743516359404.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743516359404.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743516375667.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743516375667.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743535407135.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743535407135.0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743594864678.0.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/1743594864678.0.png" beforeDir="false" />
+    <list default="true" id="59b91655-6e33-4b4c-93eb-0188d4b87feb" name="Changes" comment="Создал 3 теста. 2 негативных теста на проверку авторизации с неправильным паролем и email и 1 негативный тест на проверку регистрации с данными уже существующего пользователя.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/authorization/AuthorizationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/authorization/AuthorizationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/register/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/register/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/authorization/AuthorizationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/authorization/AuthorizationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/services/registration/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/registration/RegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/authorization/AuthorizationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/authorization/AuthorizationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/authorization/RegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/authorization/RegistrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="add-three-tests" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -166,12 +50,14 @@
     &quot;TestNG.Authorization.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AuthorizationTest.checkAuthorization.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AuthorizationTest.checkIncorrecEmail.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AuthorizationTest.checkIncorrectEmail.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AuthorizationTest.checkIncorrectPassword.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.AuthorizationTest.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.EqualsURL.equalsUrl.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.EqualsURL.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.EqualsURL.main.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.RegistrationTest.checkRegistration.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.RegistrationTest.checkRegistrationWithExistingUser.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.RegistrationTest.checkUserExists.executor&quot;: &quot;Run&quot;,
     &quot;TestNG.ReqrestTest.successRegistrationTest.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;add-three-tests&quot;,
@@ -188,7 +74,7 @@
       <recent name="C:\Users\Denis\IdeaProjects\defaultFrameworkAutomation" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AuthorizationTest.checkAuthorization">
+  <component name="RunManager" selected="TestNG.RegistrationTest.checkRegistrationWithExistingUser">
     <configuration name="AuthorizationTest.checkAuthorization" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
@@ -207,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AuthorizationTest.checkIncorrecEmail" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AuthorizationTest.checkIncorrectEmail" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
         <pattern>
@@ -217,7 +103,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.authorization" />
       <option name="MAIN_CLASS_NAME" value="test.authorization.AuthorizationTest" />
-      <option name="METHOD_NAME" value="checkIncorrecEmail" />
+      <option name="METHOD_NAME" value="checkIncorrectEmail" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -261,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistrationTest.checkUserExists" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RegistrationTest.checkRegistrationWithExistingUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenide-boilerplate" />
       <extension name="coverage">
         <pattern>
@@ -271,7 +157,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.authorization" />
       <option name="MAIN_CLASS_NAME" value="test.authorization.RegistrationTest" />
-      <option name="METHOD_NAME" value="checkUserExists" />
+      <option name="METHOD_NAME" value="checkRegistrationWithExistingUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -281,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AuthorizationTest.checkAuthorization" />
-        <item itemvalue="TestNG.RegistrationTest.checkUserExists" />
+        <item itemvalue="TestNG.RegistrationTest.checkRegistrationWithExistingUser" />
         <item itemvalue="TestNG.RegistrationTest.checkRegistration" />
-        <item itemvalue="TestNG.AuthorizationTest.checkIncorrecEmail" />
         <item itemvalue="TestNG.AuthorizationTest.checkIncorrectPassword" />
+        <item itemvalue="TestNG.AuthorizationTest.checkIncorrectEmail" />
+        <item itemvalue="TestNG.AuthorizationTest.checkAuthorization" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +240,47 @@
       <option name="project" value="LOCAL" />
       <updated>1743696067260</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Починил все">
+      <option name="closed" value="true" />
+      <created>1743696202062</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1743696202062</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Починил все">
+      <option name="closed" value="true" />
+      <created>1743696474511</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1743696474511</updated>
+    </task>
+    <task id="LOCAL-00010" summary="1">
+      <option name="closed" value="true" />
+      <created>1743696959894</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1743696959894</updated>
+    </task>
+    <task id="LOCAL-00011" summary="1">
+      <option name="closed" value="true" />
+      <created>1743697127450</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743697127450</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Создал 3 теста. 2 негативных теста на проверку авторизации с неправильным паролем и email и 1 негативный тест на проверку регистрации с данными уже существующего пользователя.">
+      <option name="closed" value="true" />
+      <created>1744365943510</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1744365943510</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,6 +302,8 @@
     <MESSAGE value="Изменил because" />
     <MESSAGE value="Создал 2 автотеста на проверку авторизации, один с неверной почтой, второй с неверным паролем. Создал автотест на прохождение регистрации с данными пользователя, который уже существует." />
     <MESSAGE value="Починил все" />
-    <option name="LAST_COMMIT_MESSAGE" value="Починил все" />
+    <MESSAGE value="1" />
+    <MESSAGE value="Создал 3 теста. 2 негативных теста на проверку авторизации с неправильным паролем и email и 1 негативный тест на проверку регистрации с данными уже существующего пользователя." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создал 3 теста. 2 негативных теста на проверку авторизации с неправильным паролем и email и 1 негативный тест на проверку регистрации с данными уже существующего пользователя." />
   </component>
 </project>
